@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="bxslider/jquery.bxslider.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="page-title uppercase">офис 212 м<sup>2</sup> в аренду</h1>
+            <ul class="bxslider">
+                <li><img src="img/pic1.jpg" alt="img-1"/></li>
+                <li><img src="img/pic2.jpg" alt="img-2"/></li>
+                <li><img src="img/pic3.jpg" alt="img-3"/></li>
+                <li><img src="img/pic4.jpg" alt="img-4"/></li>
+                <li><img src="img/pic5.jpg" alt="img-5"/></li>
+            </ul>
+            <div class="main-content clearfix">
+                <div class="col-1">
+                    <ul class="tab-list uppercase">
+                        <li class="tab-item tab-active" data-index="1">
+                            <a href="#content-1" >главное</a>
+                        </li>
+                        <li class="tab-item" data-index="2">
+                            <a href="#content-2" >безопасность</a>
+                        </li>
+                        <li class="tab-item" data-index="3">
+                            <a href="#content-3" >сервис</a>
+                        </li>
+                    </ul>
+                    <div id="content-1" class="content" data-index="1">
+                        <ul class="about-list">
+                            <li class="about-item"><i>Бизнес центр</i> &mdash; <span class="uppercase"><a href="#">renaissance plaza</a></span><span> (A)</span></li>
+                            <li class="about-item"><i>Адрес</i> &mdash; <span><a href="#">ул. Марата, 69 - 71</a></span></li>
+                            <li class="about-item"><i>Площадь</i> &mdash; <span>212 м<sup>2</sup></span></li>
+                        </ul>
+                    </div>
+                    <div id="content-2" class="content" data-index="2">
+                        <ul class="info-list">
+                            <li class="info-item"><i>Круглосуточная охрана</i></li>
+                            <li class="info-item"><i>Система контроля доступа</i></li>
+                            <li class="info-item"><i>Система видеонаблюдения</i></li>
+                        </ul>
+                    </div>
+                    <div id="content-3" class="content" data-index="3">
+                        <ul class="info-list">
+                            <li class="info-item"><i>Профессиональная управляющая компания</i></li>
+                            <li class="info-item"><i>Кафе</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="label-img">
+                        <div id="btn">
+                            <a href="#" class="uppercase">renaissance plaza</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="bxslider/jquery.bxslider.js"></script>
+</body>
+</html>
